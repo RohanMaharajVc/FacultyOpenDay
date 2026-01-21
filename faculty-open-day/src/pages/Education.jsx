@@ -3,7 +3,7 @@ import Particles, { initParticlesEngine } from "@tsparticles/react";
 import { loadSlim } from "@tsparticles/slim";
 import ProgramSection from '../components/ProgramSection';
 import DownloadButton from '../components/DownloadButton';
-import ModuleDisplay from '../components/ModuleDisplay';
+import ModuleDisplayEducation from '../components/ModuleDisplayEducation';
 import { getFacultyById } from '../data/facultyData';
 import { BookOpen, Award, DollarSign, Users, GraduationCap, TrendingUp } from 'lucide-react';
 import { educationParticles } from '../config/particlesConfig';
@@ -95,10 +95,9 @@ const Education = () => {
       </section>
 
       {/* Module Display Section */}
-      <ModuleDisplay
+      <ModuleDisplayEducation
         degreeModules={faculty.degree.modules}
         higherCertModules={faculty.higherCertificate.modules}
-        facultyColor="education"
       />
 
       {/* Programs Section */}

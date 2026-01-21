@@ -10,14 +10,29 @@ export const faculties = [
       description: 'A comprehensive program designed to prepare aspiring teachers with the knowledge, skills, and practical experience needed to excel in modern educational environments.',
       downloadUrl: '/downloads/education-degree.pdf',
       modules: [
-        { code: 'EDU101', name: 'Introduction to Education', credits: 15, semester: 1 },
-        { code: 'PSY102', name: 'Educational Psychology', credits: 15, semester: 1 },
-        { code: 'CUR103', name: 'Curriculum Development', credits: 15, semester: 1 },
-        { code: 'LIT104', name: 'Literacy and Numeracy', credits: 15, semester: 1 },
-        { code: 'EDU201', name: 'Teaching Methods', credits: 15, semester: 2 },
-        { code: 'ASS202', name: 'Assessment and Evaluation', credits: 15, semester: 2 },
-        { code: 'INC203', name: 'Inclusive Education', credits: 15, semester: 2 },
-        { code: 'PRA204', name: 'Teaching Practice I', credits: 15, semester: 2 },
+        // Professional Subjects - Semester 1
+        { code: 'INPCF110', name: 'Introduction to Personal Computing', credits: 5, semester: 1, nqf: 5, category: 'Professional Subjects' },
+        { code: 'FAFR6121/FALX6121/FALZ6121/FALN6111', name: 'First Additional Languages: Afrikaans/IsiXhosa/IsiZulu/Northern Sotho', credits: 12, semester: 1, nqf: 6, category: 'Professional Subjects' },
+        { code: 'ITSA5111', name: 'Introduction to Scholarship A', credits: 8, semester: 1, nqf: 5, category: 'Professional Subjects' },
+        // Professional Themes - Semester 1
+        { code: 'PSED5111', name: 'Psychology for Educators 1A', credits: 12, semester: 1, nqf: 5, category: 'Professional Themes' },
+        { code: 'IPTL6111', name: 'IP Teaching and Learning', credits: 7, semester: 1, nqf: 6, category: 'Professional Themes' },
+        // Professional Didactics I - Semester 1
+        { code: 'TISS5111', name: 'TIP* Social Sciences 1', credits: 8, semester: 1, nqf: 5, category: 'Professional Didactics I' },
+        { code: 'TIMA5111', name: 'TIP* Mathematics 1A', credits: 8, semester: 1, nqf: 5, category: 'Professional Didactics I' },
+
+        // Professional Subjects - Semester 2
+        { code: 'ENED6122', name: 'English for Education 1', credits: 12, semester: 2, nqf: 6, category: 'Professional Subjects' },
+        { code: 'COLA5112/COLX5112/COLZ5112/COLN5112', name: 'Communicative Languages: Afrikaans/IsiXhosa/IsiZulu/Northern Sotho', credits: 12, semester: 2, nqf: 5, category: 'Professional Subjects' },
+        { code: 'IEMS5111', name: 'Introduction to EMS', credits: 5, semester: 2, nqf: 5, category: 'Professional Subjects' },
+        // Professional Themes - Semester 2
+        { code: 'PSED5112', name: 'Psychology for Educators 1B', credits: 12, semester: 2, nqf: 5, category: 'Professional Themes' },
+        // Professional Didactics I - Semester 2
+        { code: 'TIPM6112', name: 'TIP* Mathematics 1B', credits: 8, semester: 2, nqf: 6, category: 'Professional Didactics I' },
+        { code: 'TNST5112', name: 'TIP* Nat Sciences and Technology 1', credits: 8, semester: 2, nqf: 5, category: 'Professional Didactics I' },
+
+        // Year Long
+        { code: 'TEIP5119', name: 'Teaching Experience 1', credits: 6, semester: 0, nqf: 5, category: 'Year Long' },
       ]
     },
     higherCertificate: {
