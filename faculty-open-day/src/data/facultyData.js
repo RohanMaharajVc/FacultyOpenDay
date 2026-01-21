@@ -38,14 +38,24 @@ export const faculties = [
     higherCertificate: {
       title: 'Higher Certificate in Education',
       description: 'An entry-level qualification for those beginning their journey in education, providing foundational knowledge and skills.',
-      downloadUrl: '/downloads/education-certificate.pdf',
+      downloadUrl: '/src/assets/Humanities/iie-higher-certificate-in-communication-practices-full-time-fact-sheet-2026.pdf',
       modules: [
-        { code: 'FED101', name: 'Foundations of Education', credits: 12, semester: 1 },
-        { code: 'COM102', name: 'Communication Skills', credits: 12, semester: 1 },
-        { code: 'CHD103', name: 'Child Development', credits: 12, semester: 1 },
-        { code: 'LRN104', name: 'Learning Theories', credits: 12, semester: 1 },
-        { code: 'CLS201', name: 'Classroom Management', credits: 12, semester: 2 },
-        { code: 'EDM202', name: 'Educational Media', credits: 12, semester: 2 },
+        // Semester 1
+        { code: 'APCT5131', name: 'Applied Communication Techniques', credits: 15, semester: 1, nqf: 5, category: 'Core Modules' },
+        { code: 'COSC5121', name: 'Communication Science 1A: Interpersonal Communication', credits: 15, semester: 1, nqf: 5, category: 'Core Modules' },
+        { code: 'DIAL5111', name: 'Digital and Academic Literacies', credits: 15, semester: 1, nqf: 5, category: 'Core Modules' },
+        { code: 'ENLP5111', name: 'English Language Practice A', credits: 15, semester: 1, nqf: 5, category: 'Core Modules' },
+
+        // Semester 2
+        { code: 'DTPS5111', name: 'Design Thinking and Problem-Solving', credits: 15, semester: 2, nqf: 5, category: 'Core Modules' },
+        { code: 'MAFU5112', name: 'Mathematics Fundamentals', credits: 15, semester: 2, nqf: 5, category: 'Core Modules' },
+        { code: 'XCOP5112', name: 'Work Integrated Learning', credits: 15, semester: 2, nqf: 5, category: 'Core Modules' },
+
+        // Electives - First Additional Languages (Students choose one)
+        { code: 'FALN5112', name: 'First Additional Language Northern Sotho', credits: 15, semester: 0, nqf: 5, category: 'Electives - First Additional Languages' },
+        { code: 'FALX5112', name: 'First Additional Language isiXhosa', credits: 15, semester: 0, nqf: 5, category: 'Electives - First Additional Languages' },
+        { code: 'FALZ5112', name: 'First Additional Language isiZulu', credits: 15, semester: 0, nqf: 5, category: 'Electives - First Additional Languages' },
+        { code: 'FAFR5112', name: 'First Additional Language Afrikaans', credits: 15, semester: 0, nqf: 5, category: 'Electives - First Additional Languages' },
       ]
     },
     feesUrl: '/src/assets/fees.pdf'
@@ -140,7 +150,7 @@ export const faculties = [
     degree: {
       title: 'Bachelor of Arts in Humanities',
       description: 'A diverse program exploring literature, history, philosophy, and social sciences, developing critical thinking and cultural awareness.',
-      downloadUrl: '/downloads/humanities-degree.pdf',
+      downloadUrl: '/src/assets/Humanities/iie-bachelor-of-arts-full-time-fact-sheet-2026.pdf',
       modules: [
         // Semester 1
         { code: 'ENGL5121', name: 'English 1A: Introduction to English Studies', credits: 15, semester: 1, nqf: 5 },
@@ -157,7 +167,7 @@ export const faculties = [
     higherCertificate: {
       title: 'Higher Certificate in Humanities',
       description: 'An introductory program providing foundational knowledge in humanities subjects and developing analytical skills.',
-      downloadUrl: '/downloads/humanities-certificate.pdf',
+      downloadUrl: '/src/assets/Humanities/iie-higher-certificate-in-communication-practices-full-time-fact-sheet-2026.pdf',
       modules: [
         // Semester 1
         { code: 'APCT5131', name: 'Applied Communication Techniques', credits: 15, semester: 1, nqf: 5 },
