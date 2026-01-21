@@ -159,12 +159,16 @@ export const faculties = [
       description: 'An introductory program providing foundational knowledge in humanities subjects and developing analytical skills.',
       downloadUrl: '/downloads/humanities-certificate.pdf',
       modules: [
-        { code: 'FEN101', name: 'Foundations of English', credits: 12, semester: 1 },
-        { code: 'HUM102', name: 'Introduction to Humanities', credits: 12, semester: 1 },
-        { code: 'CRT103', name: 'Critical Thinking', credits: 12, semester: 1 },
-        { code: 'WRT104', name: 'Academic Writing', credits: 12, semester: 1 },
-        { code: 'MED201', name: 'Media Studies', credits: 12, semester: 2 },
-        { code: 'COM202', name: 'Communication & Culture', credits: 12, semester: 2 },
+        // Semester 1
+        { code: 'APCT5131', name: 'Applied Communication Techniques', credits: 15, semester: 1, nqf: 5 },
+        { code: 'COSC5121', name: 'Communication Science 1A: Interpersonal Communication', credits: 15, semester: 1, nqf: 5 },
+        { code: 'DIAL5111', name: 'Digital and Academic Literacies', credits: 15, semester: 1, nqf: 5 },
+        { code: 'ENLP5111', name: 'English Language Practice A', credits: 15, semester: 1, nqf: 5 },
+        // Semester 2
+        { code: 'DTPS5111', name: 'Design Thinking and Problem-Solving', credits: 15, semester: 2, nqf: 5 },
+        { code: 'ENLP5112', name: 'English Language Practice B', credits: 15, semester: 2, nqf: 5 },
+        { code: 'FOMS5112', name: 'Fundamentals of Media Studies', credits: 15, semester: 2, nqf: 5 },
+        { code: 'XCOP5112', name: 'Work Integrated Learning', credits: 15, semester: 2, nqf: 5 },
       ]
     },
     feesUrl: '/src/assets/fees.pdf'
