@@ -201,7 +201,7 @@ const Home = () => {
       </section>
 
       {/* Footer */}
-      <footer className="relative bg-gray-900 text-white py-12 overflow-hidden">
+      <footer className="relative bg-gray-900 text-white py-6 overflow-hidden">
         {/* Animated Pattern Overlay */}
         <div className="absolute inset-0 opacity-10">
           <div className="absolute inset-0 animate-pattern-slide" style={{
@@ -210,15 +210,15 @@ const Home = () => {
         </div>
 
         <div className="container mx-auto px-4 relative z-10">
-          <div className="flex flex-col items-center space-y-6">
+          <div className="flex flex-col items-center space-y-3">
             <img
               src={emerisLogo}
               alt="Emeris Logo"
-              className="h-16 object-contain opacity-80"
+              className="h-10 object-contain opacity-80"
             />
             <div className="text-center">
-              <p className="text-gray-300 text-lg mb-2">© 2026 Emeris. All rights reserved.</p>
-              <p className="text-gray-500">Empowering minds, shaping futures</p>
+              <p className="text-gray-300 text-sm mb-1">© 2026 Emeris. All rights reserved.</p>
+              <p className="text-gray-500 text-xs">Empowering minds, shaping futures</p>
             </div>
           </div>
         </div>
