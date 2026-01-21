@@ -32,6 +32,7 @@ module.exports = {
         'fade-in': 'fadeIn 0.8s ease-in-out',
         'fade-in-up': 'fadeInUp 0.6s ease-out forwards',
         'pulse': 'pulse 3s cubic-bezier(0.4, 0, 0.6, 1) infinite',
+        'pattern-slide': 'patternSlide 20s linear infinite',
       },
       keyframes: {
         fadeIn: {
@@ -51,6 +52,10 @@ module.exports = {
         pulse: {
           '0%, 100%': { opacity: '1' },
           '50%': { opacity: '0.5' },
+        },
+        patternSlide: {
+          '0%': { transform: 'translate(0, 0)' },
+          '100%': { transform: 'translate(60px, 60px)' },
         },
       },
     },
