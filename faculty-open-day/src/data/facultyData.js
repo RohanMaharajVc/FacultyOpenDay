@@ -33,7 +33,7 @@ export const faculties = [
         { code: 'EDM202', name: 'Educational Media', credits: 12, semester: 2 },
       ]
     },
-    feesUrl: '/downloads/education-fees.pdf'
+    feesUrl: '/src/assets/fees.pdf'
   },
   {
     id: 'law',
@@ -69,7 +69,7 @@ export const faculties = [
         { code: 'LPA202', name: 'Legal Practice & Administration', credits: 12, semester: 2 },
       ]
     },
-    feesUrl: '/downloads/law-fees.pdf'
+    feesUrl: '/src/assets/fees.pdf'
   },
   {
     id: 'commerce',
@@ -80,7 +80,7 @@ export const faculties = [
     degree: {
       title: 'Bachelor of Commerce',
       description: 'A dynamic program covering business, finance, economics, and management, preparing students for successful careers in the corporate world.',
-      downloadUrl: '/downloads/commerce-degree.pdf',
+      downloadUrl: '/src/assets/Commerce/iie-bachelor-of-commerce-full-time-fact-sheet-2026.pdf',
       modules: [
         { code: 'ACBP5121', name: 'Accounting 1A', credits: 15, semester: 1, nqf: 5 },
         { code: 'APCT5131', name: 'Applied Communication Techniques', credits: 15, semester: 1, nqf: 5 },
@@ -95,7 +95,7 @@ export const faculties = [
     higherCertificate: {
       title: 'Higher Certificate in Commerce',
       description: 'A foundational business qualification providing essential skills in commerce, accounting, and business management.',
-      downloadUrl: '/downloads/commerce-certificate.pdf',
+      downloadUrl: '/src/assets/Commerce/iie-higher-certificate-in-business-principles-and-practice.pdf',
       modules: [
         { code: 'IQTT5111', name: 'Introduction to Quantitative Techniques and Techniques', credits: 15, semester: 1, nqf: 5 },
         { code: 'INAC5111', name: 'Introduction to Accounting 1A', credits: 15, semester: 1, nqf: 5 },
@@ -107,7 +107,7 @@ export const faculties = [
         { code: 'XBPP5129', name: 'Work Integrated Learning', credits: 15, semester: 2, nqf: 5 },
       ]
     },
-    feesUrl: '/downloads/commerce-fees.pdf'
+    feesUrl: '/src/assets/fees.pdf'
   },
   {
     id: 'humanities',
@@ -143,7 +143,7 @@ export const faculties = [
         { code: 'COM202', name: 'Communication & Culture', credits: 12, semester: 2 },
       ]
     },
-    feesUrl: '/downloads/humanities-fees.pdf'
+    feesUrl: '/src/assets/fees.pdf'
   }
 ];
 
