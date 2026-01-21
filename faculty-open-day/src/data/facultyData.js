@@ -59,7 +59,7 @@ export const faculties = [
     degree: {
       title: 'Bachelor of Laws (LLB)',
       description: 'A rigorous program that provides comprehensive legal education, critical thinking skills, and practical training for aspiring legal professionals.',
-      downloadUrl: '/downloads/law-degree.pdf',
+      downloadUrl: '/src/assets/Law/iie-bachelor-of-commerce-in-law-full-time-factsheet-2026-v1.pdf',
       modules: [
         // Semester 1
         { code: 'BMNG5121', name: 'Business Management 1A', credits: 15, semester: 1, nqf: 5 },
@@ -76,7 +76,7 @@ export const faculties = [
     higherCertificate: {
       title: 'Higher Certificate in Law',
       description: 'An introductory qualification providing foundational legal knowledge and skills for those entering the legal field.',
-      downloadUrl: '/downloads/law-certificate.pdf',
+      downloadUrl: '/src/assets/Law/iie-higher-certificate-in-legal-studies-full-time-factsheet-2026.pdf',
       modules: [
         // Semester 1
         { code: 'LELS5111', name: 'Legal and Literacy Skills', credits: 15, semester: 1, nqf: 5 },
@@ -142,14 +142,16 @@ export const faculties = [
       description: 'A diverse program exploring literature, history, philosophy, and social sciences, developing critical thinking and cultural awareness.',
       downloadUrl: '/downloads/humanities-degree.pdf',
       modules: [
-        { code: 'ENG101', name: 'English Literature', credits: 15, semester: 1 },
-        { code: 'HIS102', name: 'World History', credits: 15, semester: 1 },
-        { code: 'PHI103', name: 'Introduction to Philosophy', credits: 15, semester: 1 },
-        { code: 'SOC104', name: 'Sociology', credits: 15, semester: 1 },
-        { code: 'LIT201', name: 'Literary Analysis', credits: 15, semester: 2 },
-        { code: 'CUL202', name: 'Cultural Studies', credits: 15, semester: 2 },
-        { code: 'PSY203', name: 'Psychology', credits: 15, semester: 2 },
-        { code: 'ART204', name: 'Art History', credits: 15, semester: 2 },
+        // Semester 1
+        { code: 'ENGL5121', name: 'English 1A: Introduction to English Studies', credits: 15, semester: 1, nqf: 5 },
+        { code: 'COSC5121', name: 'Communication Science 1A: Interpersonal Communication', credits: 15, semester: 1, nqf: 5 },
+        { code: 'PSYC5121', name: 'Psychology 1A: Introduction to Psychology', credits: 15, semester: 1, nqf: 5 },
+        { code: 'SOCI5121', name: 'Sociology 1A', credits: 15, semester: 1, nqf: 5 },
+        // Semester 2
+        { code: 'ENGL6122', name: 'English 1B: Introduction to English Studies', credits: 15, semester: 2, nqf: 6 },
+        { code: 'COSC5132', name: 'Communication Science 1B: Intercultural Communication', credits: 15, semester: 2, nqf: 5 },
+        { code: 'PSYC5122', name: 'Psychology 1B: Introduction to Psychology', credits: 12, semester: 2, nqf: 5 },
+        { code: 'SOCI5122', name: 'Sociology 1B', credits: 15, semester: 2, nqf: 5 },
       ]
     },
     higherCertificate: {
