@@ -8,7 +8,7 @@ import Humanities from './pages/Humanities';
 
 function App() {
   return (
-    <Router>
+    <Router basename="/FacultyOpenDay">
       <div className="min-h-screen bg-gray-50">
         <Navbar />
         <Routes>
