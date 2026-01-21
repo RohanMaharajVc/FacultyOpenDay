@@ -8,7 +8,7 @@ export const faculties = [
     degree: {
       title: 'Bachelor of Education',
       description: 'A comprehensive program designed to prepare aspiring teachers with the knowledge, skills, and practical experience needed to excel in modern educational environments.',
-      downloadUrl: '/downloads/education-degree.pdf',
+      downloadUrl: '/src/assets/Education/iie-bachelor-of-education-in-intermediate-phase-teaching-full-time-factsheet-2026.pdf',
       modules: [
         // Professional Subjects - Semester 1
         { code: 'INPCF110', name: 'Introduction to Personal Computing', credits: 5, semester: 1, nqf: 5, category: 'Professional Subjects' },
@@ -61,14 +61,16 @@ export const faculties = [
       description: 'A rigorous program that provides comprehensive legal education, critical thinking skills, and practical training for aspiring legal professionals.',
       downloadUrl: '/downloads/law-degree.pdf',
       modules: [
-        { code: 'LAW101', name: 'Introduction to Law', credits: 15, semester: 1 },
-        { code: 'CON102', name: 'Constitutional Law', credits: 15, semester: 1 },
-        { code: 'CRI103', name: 'Criminal Law', credits: 15, semester: 1 },
-        { code: 'LRW104', name: 'Legal Research & Writing', credits: 15, semester: 1 },
-        { code: 'CON201', name: 'Contract Law', credits: 15, semester: 2 },
-        { code: 'TOR202', name: 'Law of Delict/Tort', credits: 15, semester: 2 },
-        { code: 'ADM203', name: 'Administrative Law', credits: 15, semester: 2 },
-        { code: 'ETH204', name: 'Legal Ethics', credits: 15, semester: 2 },
+        // Semester 1
+        { code: 'BMNG5121', name: 'Business Management 1A', credits: 15, semester: 1, nqf: 5 },
+        { code: 'INFL5111', name: 'Introduction and Foundations to Law', credits: 15, semester: 1, nqf: 5 },
+        { code: 'ENFL6111', name: 'English for Law', credits: 15, semester: 1, nqf: 6 },
+        { code: '*ACBP5121', name: 'Accounting 1A', credits: 15, semester: 1, nqf: 5 },
+        // Semester 2
+        { code: 'BMNG5122', name: 'Business Management 1B', credits: 15, semester: 2, nqf: 5 },
+        { code: 'CONL5112', name: 'Constitutional Law and Human Rights', credits: 15, semester: 2, nqf: 5 },
+        { code: 'PMIC5111', name: 'Economics 1A (Micro)', credits: 15, semester: 2, nqf: 5 },
+        { code: '*ACBP5122', name: 'Accounting 1B', credits: 15, semester: 2, nqf: 5 },
       ]
     },
     higherCertificate: {
@@ -76,12 +78,17 @@ export const faculties = [
       description: 'An introductory qualification providing foundational legal knowledge and skills for those entering the legal field.',
       downloadUrl: '/downloads/law-certificate.pdf',
       modules: [
-        { code: 'FLW101', name: 'Foundations of Law', credits: 12, semester: 1 },
-        { code: 'LSY102', name: 'Legal Systems', credits: 12, semester: 1 },
-        { code: 'BLW103', name: 'Basic Legal Writing', credits: 12, semester: 1 },
-        { code: 'CRJ104', name: 'Criminal Justice', credits: 12, semester: 1 },
-        { code: 'HRL201', name: 'Human Rights Law', credits: 12, semester: 2 },
-        { code: 'LPA202', name: 'Legal Practice & Administration', credits: 12, semester: 2 },
+        // Semester 1
+        { code: 'LELS5111', name: 'Legal and Literacy Skills', credits: 15, semester: 1, nqf: 5 },
+        { code: 'FSAL5121', name: 'Fundamentals of the South African Legal System', credits: 15, semester: 1, nqf: 5 },
+        { code: 'ASPL5111', name: 'Aspects of Private Law', credits: 15, semester: 1, nqf: 5 },
+        { code: 'LEOS5122', name: 'Legal Office Support', credits: 15, semester: 1, nqf: 5 },
+        // Semester 2
+        { code: 'ASML5122', name: 'Aspects of Mercantile Law', credits: 15, semester: 2, nqf: 5 },
+        { code: 'DCCP5112', name: 'Debt Collection and Civil Procedure', credits: 15, semester: 2, nqf: 5 },
+        { code: 'PEMA5122', name: 'Principles of Employment Law', credits: 15, semester: 2, nqf: 5 },
+        // Year Long
+        { code: 'XBLAW5129', name: 'Work Integrated Learning 1', credits: 15, semester: 0, nqf: 5 },
       ]
     },
     feesUrl: '/src/assets/fees.pdf'
