@@ -82,14 +82,14 @@ export const faculties = [
       description: 'A dynamic program covering business, finance, economics, and management, preparing students for successful careers in the corporate world.',
       downloadUrl: '/downloads/commerce-degree.pdf',
       modules: [
-        { code: 'ACC101', name: 'Financial Accounting', credits: 15, semester: 1 },
-        { code: 'ECO102', name: 'Microeconomics', credits: 15, semester: 1 },
-        { code: 'BUS103', name: 'Business Management', credits: 15, semester: 1 },
-        { code: 'STA104', name: 'Business Statistics', credits: 15, semester: 1 },
-        { code: 'ACC201', name: 'Management Accounting', credits: 15, semester: 2 },
-        { code: 'ECO202', name: 'Macroeconomics', credits: 15, semester: 2 },
-        { code: 'MKT203', name: 'Marketing Principles', credits: 15, semester: 2 },
-        { code: 'FIN204', name: 'Financial Management', credits: 15, semester: 2 },
+        { code: 'ACBP5121', name: 'Accounting 1A', credits: 15, semester: 1, nqf: 5 },
+        { code: 'APCT5131', name: 'Applied Communication Techniques', credits: 15, semester: 1, nqf: 5 },
+        { code: 'BMNG5121', name: 'Business Management 1A', credits: 15, semester: 1, nqf: 5 },
+        { code: 'PMIC5111', name: 'Economics 1A', credits: 15, semester: 1, nqf: 5 },
+        { code: 'ACBP5122', name: 'Accounting 1B', credits: 15, semester: 2, nqf: 5 },
+        { code: 'BMNG5122', name: 'Business Management 1B', credits: 15, semester: 2, nqf: 5 },
+        { code: 'PMAC5112', name: 'Economics 1B', credits: 15, semester: 2, nqf: 5 },
+        { code: 'MAKT5112', name: 'Introduction to Marketing Theory and Practice', credits: 15, semester: 2, nqf: 5 },
       ]
     },
     higherCertificate: {
@@ -97,12 +97,14 @@ export const faculties = [
       description: 'A foundational business qualification providing essential skills in commerce, accounting, and business management.',
       downloadUrl: '/downloads/commerce-certificate.pdf',
       modules: [
-        { code: 'BAC101', name: 'Basic Accounting', credits: 12, semester: 1 },
-        { code: 'BEC102', name: 'Business Economics', credits: 12, semester: 1 },
-        { code: 'COM103', name: 'Business Communication', credits: 12, semester: 1 },
-        { code: 'MAT104', name: 'Business Mathematics', credits: 12, semester: 1 },
-        { code: 'OFM201', name: 'Office Management', credits: 12, semester: 2 },
-        { code: 'ENT202', name: 'Entrepreneurship', credits: 12, semester: 2 },
+        { code: 'IQTT5111', name: 'Introduction to Quantitative Techniques and Techniques', credits: 15, semester: 1, nqf: 5 },
+        { code: 'INAC5111', name: 'Introduction to Accounting 1A', credits: 15, semester: 1, nqf: 5 },
+        { code: 'BMAD5121', name: 'Business Management & Administration A', credits: 15, semester: 1, nqf: 5 },
+        { code: 'DIAL5111', name: 'Digital and Academic Literacies', credits: 15, semester: 1, nqf: 5 },
+        { code: 'PRMA5122', name: 'Project Management and Administration', credits: 15, semester: 2, nqf: 5 },
+        { code: 'ACSO5112', name: 'Accounting Software', credits: 15, semester: 2, nqf: 5 },
+        { code: 'BMAD5112', name: 'Business Management & Administration B', credits: 15, semester: 2, nqf: 5 },
+        { code: 'XBPP5129', name: 'Work Integrated Learning', credits: 15, semester: 2, nqf: 5 },
       ]
     },
     feesUrl: '/downloads/commerce-fees.pdf'

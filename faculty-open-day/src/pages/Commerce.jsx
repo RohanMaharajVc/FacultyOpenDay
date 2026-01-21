@@ -3,7 +3,7 @@ import Particles, { initParticlesEngine } from "@tsparticles/react";
 import { loadSlim } from "@tsparticles/slim";
 import ProgramSection from '../components/ProgramSection';
 import DownloadButton from '../components/DownloadButton';
-import ModuleDisplay from '../components/ModuleDisplay';
+import ModuleDisplayCommerce from '../components/ModuleDisplayCommerce';
 import { getFacultyById } from '../data/facultyData';
 import { BookOpen, Award, DollarSign, TrendingUp, Briefcase, Users } from 'lucide-react';
 import { commerceParticles } from '../config/particlesConfig';
@@ -95,10 +95,9 @@ const Commerce = () => {
       </section>
 
       {/* Module Display Section */}
-      <ModuleDisplay
+      <ModuleDisplayCommerce
         degreeModules={faculty.degree.modules}
         higherCertModules={faculty.higherCertificate.modules}
-        facultyColor="commerce"
       />
 
       {/* Programs Section */}
