@@ -5,7 +5,7 @@ import ProgramSection from '../components/ProgramSection';
 import DownloadButton from '../components/DownloadButton';
 import ModuleDisplayLaw from '../components/ModuleDisplayLaw';
 import { getFacultyById } from '../data/facultyData';
-import { BookOpen, Award, DollarSign, Scale, Users, TrendingUp } from 'lucide-react';
+import { BookOpen, Award, DollarSign } from 'lucide-react';
 import { lawParticles } from '../config/particlesConfig';
 
 const Law = () => {
@@ -57,40 +57,6 @@ const Law = () => {
           <svg viewBox="0 0 1440 120" fill="none" xmlns="http://www.w3.org/2000/svg">
             <path d="M0 120L60 105C120 90 240 60 360 45C480 30 600 30 720 37.5C840 45 960 60 1080 67.5C1200 75 1320 75 1380 75L1440 75V120H1380C1320 120 1200 120 1080 120C960 120 840 120 720 120C600 120 480 120 360 120C240 120 120 120 60 120H0Z" fill="#F9FAFB"/>
           </svg>
-        </div>
-      </section>
-
-      {/* Stats Section */}
-      <section className="py-12 bg-gray-50">
-        <div className="container mx-auto px-4">
-          <div className="grid grid-cols-1 md:grid-cols-3 gap-6 max-w-5xl mx-auto -mt-20 relative z-20">
-            {/* Stat 1 */}
-            <div className="bg-white rounded-2xl shadow-xl p-8 text-center hover:shadow-2xl hover:-translate-y-2 transition-all duration-300 group">
-              <div className="bg-gradient-to-br from-purple-600 to-pink-600 w-16 h-16 rounded-full flex items-center justify-center mx-auto mb-4 group-hover:scale-110 transition-transform">
-                <Scale className="text-white" size={32} />
-              </div>
-              <h3 className="text-4xl font-bold text-gray-800 mb-2">40+</h3>
-              <p className="text-gray-600 font-medium">Years of Legal Education</p>
-            </div>
-
-            {/* Stat 2 */}
-            <div className="bg-white rounded-2xl shadow-xl p-8 text-center hover:shadow-2xl hover:-translate-y-2 transition-all duration-300 group">
-              <div className="bg-gradient-to-br from-purple-600 to-pink-600 w-16 h-16 rounded-full flex items-center justify-center mx-auto mb-4 group-hover:scale-110 transition-transform">
-                <Users className="text-white" size={32} />
-              </div>
-              <h3 className="text-4xl font-bold text-gray-800 mb-2">3000+</h3>
-              <p className="text-gray-600 font-medium">Legal Professionals</p>
-            </div>
-
-            {/* Stat 3 */}
-            <div className="bg-white rounded-2xl shadow-xl p-8 text-center hover:shadow-2xl hover:-translate-y-2 transition-all duration-300 group">
-              <div className="bg-gradient-to-br from-purple-600 to-pink-600 w-16 h-16 rounded-full flex items-center justify-center mx-auto mb-4 group-hover:scale-110 transition-transform">
-                <TrendingUp className="text-white" size={32} />
-              </div>
-              <h3 className="text-4xl font-bold text-gray-800 mb-2">92%</h3>
-              <p className="text-gray-600 font-medium">Bar Exam Pass Rate</p>
-            </div>
-          </div>
         </div>
       </section>
 

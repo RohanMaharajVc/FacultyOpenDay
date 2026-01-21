@@ -1,7 +1,7 @@
 import FacultyCard from '../components/FacultyCard';
 import { faculties } from '../data/facultyData';
 import emerisLogo from '../assets/Emeris.png';
-import { GraduationCap, BookOpen, Users, Award, ArrowRight, Sparkles, Target, TrendingUp } from 'lucide-react';
+import { GraduationCap, BookOpen, Award, ArrowRight, Sparkles, Target, TrendingUp } from 'lucide-react';
 
 const Home = () => {
   return (
@@ -67,7 +67,7 @@ const Home = () => {
                   <ArrowRight className="group-hover:translate-x-1 transition-transform" size={20} />
                 </a>
                 <a
-                  href="#stats"
+                  href="#faculties"
                   className="group bg-white/10 backdrop-blur-sm text-white px-8 py-4 rounded-full font-bold text-lg border-2 border-white/30 hover:bg-white/20 transition-all duration-300 flex items-center gap-2"
                 >
                   Learn More
@@ -84,35 +84,6 @@ const Home = () => {
           </svg>
         </div>
       </header>
-
-      {/* Stats Section */}
-      <section id="stats" className="py-20 bg-white relative">
-        <div className="container mx-auto px-4">
-          <div className="grid grid-cols-2 lg:grid-cols-4 gap-6 max-w-6xl mx-auto">
-            {[
-              { icon: GraduationCap, number: '4', label: 'Faculties', color: 'from-blue-500 to-cyan-500' },
-              { icon: BookOpen, number: '8', label: 'Programs', color: 'from-purple-500 to-pink-500' },
-              { icon: Users, number: '1000+', label: 'Students', color: 'from-green-500 to-emerald-500' },
-              { icon: Award, number: '100%', label: 'Excellence', color: 'from-orange-500 to-red-500' },
-            ].map((stat, index) => (
-              <div
-                key={index}
-                className="group relative bg-gradient-to-br from-gray-50 to-white rounded-2xl p-8 shadow-lg hover:shadow-2xl transform hover:-translate-y-2 transition-all duration-300 border border-gray-100"
-                style={{ animationDelay: `${index * 100}ms` }}
-              >
-                <div className={`absolute inset-0 bg-gradient-to-br ${stat.color} opacity-0 group-hover:opacity-10 rounded-2xl transition-opacity duration-300`}></div>
-                <div className="relative">
-                  <div className={`inline-flex p-4 rounded-xl bg-gradient-to-br ${stat.color} mb-4 shadow-lg`}>
-                    <stat.icon className="text-white" size={32} />
-                  </div>
-                  <h3 className="text-4xl md:text-5xl font-extrabold text-gray-800 mb-2">{stat.number}</h3>
-                  <p className="text-gray-600 font-semibold text-lg">{stat.label}</p>
-                </div>
-              </div>
-            ))}
-          </div>
-        </div>
-      </section>
 
       {/* Faculties Section */}
       <section id="faculties" className="py-20 bg-gradient-to-br from-gray-50 to-blue-50 relative">
